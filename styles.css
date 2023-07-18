@@ -1,0 +1,94 @@
+
+
+h1, h2, h3, h4, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: Arial;
+    color:rgb(0, 0, 0);
+}
+
+header{
+    padding: 60px;
+    background: linear-gradient(to right bottom, rgb(143, 211, 234), rgb(35, 125, 243));
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+main{
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+main form{
+    width: 40%;
+    /* float: left; */
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main article{
+    width: 45%;
+    padding: 10px;
+    /* float: right; */
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+h1, h2, h3, h4, p {
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width:544px)  {
+    main{
+        flex-direction: column;
+
+    }
+
+    main form{
+        width: 100%;
+    }
+
+    
+    main article{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input, textarea, #destinationdetail button{
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    border: 1px solid#666;
+    padding: 10px;
+    box-sizing: border-box ;
+}
+
+#destinationdetail button:hover{
+background-color: #6358ff;
+}
+
+.card {
+    padding: 20px;
+    background-color: #efefef;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
